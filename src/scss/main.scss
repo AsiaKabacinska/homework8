@@ -3,11 +3,73 @@
 @import "_variables";
 @import "modules/hello.scss";
 
+// body {
+//   background: $wtf;
+//   color: #fff;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   min-height: 100vh;
+// }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 body {
-  background: $wtf;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  background:#2C2141 ;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  background:#F8F8F8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+.person__description {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+.person__description--widt-margin {
+  margin-bottom: 22px;
+}
+.person__info {
+  margin-bottom: 24px;
+}
+.person__link {
+  color:#E20613;
+  text-decoration: none;
+}
+.person__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+.person__picture {
+  margin-right: 32px;
+}
+.person__position {
+  font-size: 18px;
+  color: #545454;
+  margin: 0;
+  font-style: italic ;
+}
+.special{
+  color: #ED6D05;
+  font-weight: normal;
+}
+img{
+  border-radius: 50%;
 }
