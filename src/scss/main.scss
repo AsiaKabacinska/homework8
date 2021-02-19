@@ -3,17 +3,18 @@
 @import "_variables";
 @import "modules/hello.scss";
 
-// body {
-//   background: $wtf;
-//   color: #fff;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   min-height: 100vh;
-// }
+body {
+  background: $wtf;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
 
 html {
   box-sizing: border-box;
+  background-color: red;
 }
 *, *:before, *:after{
   box-sizing: inherit;
@@ -22,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:#2C2141 ;
+  background:red;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
